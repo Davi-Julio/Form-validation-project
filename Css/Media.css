@@ -1,0 +1,69 @@
+@media (min-width:764px) and (max-width:1023px){
+    #form{
+        width: 50vh; height: 70vh;
+    }
+
+    #text{
+        width: 30vw; height: 4vh;
+    }
+
+    #password{
+        width: 30vw; height: 4vh;
+    }
+}
+
+@media (min-width:450px) and (max-width:764px){
+    #form{
+        width: 50vw; height: 80vh;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #text{
+        width: 25vw; height: 6vh;
+    }
+
+    #password{
+        width: 25vw; height: 6vh;
+    }
+
+    #form label{
+        font-size: 15px;
+    }
+
+    #form span{
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:450px){
+    #form{
+        width: 60vw; height: 95vh;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #text{
+        width: 45vw; height: 4vh;
+    }
+
+    #password{
+        width: 45vw; height: 4vh;
+    }
+
+    #form label{
+        font-size: 15px;
+    }
+
+    #form span{
+        margin-left: 0px;
+    }
+
+}
